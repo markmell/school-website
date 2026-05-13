@@ -24,7 +24,8 @@ function Navbar() {
 
         {/* Navigation */}
 
-        <nav className="hidden md:flex gap-8 text-gray-800 font-semibold">
+        <
+        <nav className="flex flex-wrap justify-center gap-4 text-sm text-gray-800 font-semibold">
 
           <a href="/" className="transition duration-300 hover:text-blue-700 hover:-translate-y-1">
             Home
