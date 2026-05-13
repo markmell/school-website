@@ -11,7 +11,7 @@ function Footer() {
         <div>
 
           <h2 className="text-3xl font-bold mb-5">
-            UEP
+            UEP-PRMC
           </h2>
 
           <p className="text-gray-300 leading-8">
@@ -68,15 +68,15 @@ function Footer() {
           </h2>
 
           <p className="text-gray-300 mb-3">
-            Catarman, Northern Samar
+            Catubig, Northern Samar
           </p>
 
           <p className="text-gray-300 mb-3">
-            uep@email.com
+            ueprmcampus@gmail.com
           </p>
 
           <p className="text-gray-300">
-            +63 912 345 6789
+            +639xx-xxx-xxx
           </p>
 
         </div>
@@ -87,7 +87,7 @@ function Footer() {
 
       <div className="border-t border-white/20 mt-12 pt-8 text-center text-gray-400">
 
-        © 2026 UEP University. All rights reserved.
+        © 2026 UEPPRMC University. All rights reserved.
 
       </div>
 
