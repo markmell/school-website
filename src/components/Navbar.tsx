@@ -66,6 +66,18 @@ function Navbar() {
 
         </nav>
 
+        A{menuOpen && (
+          <div className="md:hidden flex flex-col gap-4 mt-4 text-center font-semibold text-gray-800">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/admission">Admission</a>
+                <a href="/programs">Programs</a>
+                <a href="/news">News</a>
+                <a href="/contact">Contact</a>
+  </div>
+)}
+
+
       </div>
 
     </header>
