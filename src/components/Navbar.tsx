@@ -1,5 +1,7 @@
-function Navbar() {
+import { useState } from "react"
 
+function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
 
     <header className="absolute top-0 left-0 w-full z-50">
@@ -24,11 +26,17 @@ function Navbar() {
 
         {/* Navigation */}
 
-       
 
-        <div className="md:hidden text-3xl font-bold cursor-pointer">
-         ☰
-        </div>
+          <div
+              className="md:hidden text-3xl font-bold cursor-pointer"
+              onClick={() => setMenuOpen(!menuOpen)}
+              >
+              ☰
+            </div>
+
+
+
+
 
           <nav className="hidden md:flex gap-8 text-gray-800 font-semibold">
 
