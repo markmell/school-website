@@ -13,7 +13,7 @@ function Navbar() {
           <img
             src="/uep_seal.png"
             alt="School Logo"
-            className="w-18 h-18 rounded-full"
+            className="w-14 h-14 md:w-20 md:h-20 rounded-full"
           />
 
          <h1 className="text-lg md:text-2xl font-bold">
@@ -26,7 +26,7 @@ function Navbar() {
 
         
         
-          <nav className="flex gap-4 text-sm text-gray-800 font-semibold flex-wrap">
+          <nav className="hidden md:flex gap-8 text-gray-800 font-semibold">
 
           <a href="/" className="transition duration-300 hover:text-blue-700 hover:-translate-y-1">
             Home
