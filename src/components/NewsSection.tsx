@@ -49,9 +49,10 @@ function NewsSection() {
             >
 
               <img
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
-                className="w-full h-56 object-cover"
-              />
+  src={item.image_url}
+  alt={item.title}
+  className="w-full h-56 object-cover"
+/>
 
               <div className="p-8">
 
