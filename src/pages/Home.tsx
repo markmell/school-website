@@ -13,6 +13,7 @@ function Home() {
     <div>
 
       <Navbar />
+      <div className="pt-40">
 
       <Slider />
 
@@ -21,6 +22,8 @@ function Home() {
       <NewsSection />
 
       <Footer />
+
+    </div>
 
     </div>
 

@@ -1,6 +1,11 @@
+import Navbar from "../components/Navbar";
+
 function Programs() {
   return (
-    <section className="py-24 bg-gray-100 px-6 min-h-screen">
+    <div>
+      <Navbar />
+
+    <section className="pt-56 bg-gray-100 px-6 min-h-screen">
       <h2 className="text-5xl font-bold text-center text-blue-900 mb-16">
         Academic Programs
       </h2>
@@ -76,6 +81,8 @@ Higher Education Institutions (HEIS) offering the Criminology program are envisi
 
       </div>
     </section>
+
+    </div>
   )
 }
 

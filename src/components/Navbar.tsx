@@ -4,10 +4,11 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
 
-    <header className="absolute top-0 left-0 w-full z-50">
+    //<header className="absolute top-0 left-0 w-full z-50">
+    <header className="fixed top-0 left-0 w-full z-50">
 
-      
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-5 bg-blue-900 rounded-3xl shadow-lg">
+        
+        <div className="max-w-7xl mx-auto mt-4 flex justify-between items-center px-8 py-5 bg-blue-900 rounded-3xl shadow-lg">
 
         {/* Logo */}
 
@@ -18,7 +19,7 @@ function Navbar() {
             className="w-14 h-14 md:w-20 md:h-20 rounded-full"
           />
          <h1 className="text-lg md:text-2xl font-bold text-white">
-            UNIVERSITY OF EASTERN PHILIPPINES - PEDRO REBADULLA MEROIAL CAMPUS
+            UNIVERSITY OF EASTERN PHILIPPINES - PEDRO REBADULLA MEMORIAL CAMPUS
           </h1>
         </div>
 
